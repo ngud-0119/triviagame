@@ -4,8 +4,9 @@ var answersWrong;
 
 function pageLoad() {
     $("#full_game").hide();
+    $("#total_score").hide();
     $("#start_button").on("click", gameStart);
-    $("#time_remaining").html("Time Remaining: "+ timeRemaining);
+    $("#time_remaining").html("Time Remaining: "+ timeRemaining + " seconds");
 }
 
 function gameStart(){
