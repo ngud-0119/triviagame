@@ -1,0 +1,36 @@
+body {
+    font-family: 'Play', sans-serif;
+    background-image: url(../images/worldcup.jpg);
+    background-repeat: repeat;
+    color: royalblue;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+h1 {
+    padding-top: 20px;
+    font-size: 50px !important;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px !important;
+}
+
+h3 {
+    text-align: center;
+}
+
+button {
+    font-size: 30px;
+    text-align: center;
+}
+
