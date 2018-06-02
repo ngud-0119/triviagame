@@ -6,7 +6,7 @@ var intervalId;
 
 function pageLoad() {
     $("#full_game").hide();
-    $("#restart_button").hide();
+    $(".total_score").hide();
     $("#start_button").on("click", gameStart);
    
 }
@@ -75,7 +75,7 @@ function decrement() {
     $("#guessedRight").html("Right Guesses: " + answersRight);
     $("#guessedWrong").html("Wrong Guesses: " + answersWrong);
     $("#unanswered").html("Unanswered: " + unanswered);
-    $("#restart_button").show();
+    $(".total_score").show();
 
     
   }
