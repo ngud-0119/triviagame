@@ -6,38 +6,41 @@
     <title>World Cup Trivia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Play|Press+Start+2P" rel="stylesheet">
-    
 </head>
 <body>
     <div class="container">
         <div class="row text-center">
             <div class="col col-xs-12 col-lg-12">
                 <h1>WORLD CUP TRIVIA!</h1>
-            </div>     
+            </div>
         </div>
         <div class="row text-center">
-                <div class="col col-lg-12 d-none d-sm-block">
-                    <img class="img img-responsive" src="assets/images/FWC2018.jpg">        
-                </div>    
+            <div class="col col-lg-12 d-none d-sm-block">
+                <img class="img img-responsive" src="assets/images/FWC2018.jpg">
+            </div>
             <div class="col col-xs-12 col-lg-12">
                 <h2>In honor of the 2018 FIFA World Cup in Russia!</h2>
-            </div>    
+            </div>
         </div>
         <br>
         <div class="row">
             <div class="col col-xs-12 col-lg-12">
-                <button type="button" id="start_button" class="btn btn-primary btn-lg text-center"><i class="fas fa-futbol"></i> CLICK HERE TO START!</button>
+                <button type="button" id="start_button" class="btn btn-primary btn-lg text-center">
+                    <i class="fas fa-futbol"></i> CLICK HERE TO START!</button>
             </div>
         </div>
         <br>
         <div id="full_game">
-            <div class ="row text-center">
+            <div class="row text-center">
                 <div class="col col-xs-12 col-lg-12">
-                    <h3 id="time_remaining"></h3><br>
+                    <h3 id="time_remaining"></h3>
+                    <br>
                 </div>
             </div>
             <div class="row border border-primary mx-2" id="question1">
@@ -45,124 +48,162 @@
                     <h3 id="question1 text-center">When was the first world cup played?</h3>
                     <label>
                         <input type="radio" name="q1" value="1904">1904
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q1" value="1975">1975
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q1" value="1890">1890
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
-                    <input type="radio" name="q1" value="1930">1930
-                    </label><br>
+                        <input type="radio" name="q1" value="1930">1930
+                    </label>
+                    <br>
                 </div>
-            </div><br>
+            </div>
+            <br>
             <div class="row border border-primary mx-2">
                 <div class="col col-xs-12 col-lg-12">
                     <h3>Who was the top goal scorer at the 1986 World Cup finals?</h3>
                     <label>
                         <input type="radio" name="q2" value="Gary Lineker">Gary Lineker
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q2" value="Rudi Voller">Rudi Voller
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q2" value="Socrates">Socrates
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q2" value="Diego Maradona">Diego Maradona
-                    </label><br>
+                    </label>
+                    <br>
                 </div>
-            </div><br>
+            </div>
+            <br>
             <div class="row border border-primary mx-2">
                 <div class="col col-xs-12 col-lg-12">
                     <h3>This team won the 2014 World Cup in Brazil:</h3>
                     <label>
                         <input type="radio" name="q3" value="France">France
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q3" value="Spain">Spain
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q3" value="Germany">Germany
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q3" value="Italy">Italy
-                    </label><br>
+                    </label>
+                    <br>
                 </div>
-            </div><br>
+            </div>
+            <br>
             <div class="row border border-primary mx-2">
                 <div class="col col-xs-12 col-lg-12">
-                    <h3>Which Colombian player scored an own goal in a group stage match against the USA at the 1994 World Cup and was murdered upon returning to his home country?</h3>
+                    <h3>Which Colombian player scored an own goal in a group stage match against the USA at the 1994 World Cup
+                        and was murdered upon returning to his home country?</h3>
                     <label>
                         <input type="radio" name="q4" value="Adolfo Valencia">Adolfo Valencia
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q4" value="John Harold Lozano">John Harold Lozano
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q4" value="Hernan Gaviria">Hernan Gaviria
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q4" value="Andres Escobar">Andres Escobar
-                    </label><br>
+                    </label>
+                    <br>
                 </div>
-            </div><br>
+            </div>
+            <br>
             <div class="row border border-primary mx-2">
                 <div class="col col-xs-12 col-lg-12">
                     <h3>Italy qualified for the World Cup in 2018.</h3>
                     <label>
                         <input type="radio" name="q5" value="True">True
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q5" value="False">False
                     </label>
                 </div>
-            </div><br>
+            </div>
+            <br>
             <div class="row border border-primary mx-2">
                 <div class="col col-xs-12 col-lg-12">
                     <h3>How many World Cups have been won by the host country?</h3>
                     <label>
                         <input type="radio" name="q6" value="12">12
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q6" value="6">6
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q6" value="2">2
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q6" value="9">9
-                    </label><br>
+                    </label>
+                    <br>
                 </div>
-            </div><br>
+            </div>
+            <br>
             <div class="row border border-primary mx-2">
                 <div class="col col-xs-12 col-lg-12">
                     <h3>Only one country has been in every World Cup Since 1930. Who is it?</h3>
                     <label>
                         <input type="radio" name="q7" value="Brazil">Brazil
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q7" value="Germany">Germany
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q7" value="England">England
-                    </label><br>
+                    </label>
+                    <br>
                     <label>
                         <input type="radio" name="q7" value="Argentina">Argentina
-                    </label><br>
+                    </label>
+                    <br>
                 </div>
-            </div><br>
+            </div>
+            <br>
         </div>
         <div class="total_score border border-primary m-2">
-            <h2><strong>TIME'S UP!</strong></h2>
-            <h4 id="guessedRight"></h1>
-            <h4 id="guessedWrong"></h4>
-            <h4 id="unanswered"></h4>
-            <button type="button" id="restart_button" value="TRY AGAIN?" class="btn btn-lg btn-primary" onClick="window.location.reload()"><i class="fas fa-futbol"></i>TRY AGAIN?</button>
+            <h2>
+                <strong>TIME'S UP!</strong>
+            </h2>
+            <h4 id="guessedRight">
+                </h1>
+                <h4 id="guessedWrong"></h4>
+                <h4 id="unanswered"></h4>
+                <button type="button" id="restart_button" value="TRY AGAIN?" class="btn btn-lg btn-primary" onClick="window.location.reload()">
+                    <i class="fas fa-futbol"></i>TRY AGAIN?</button>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
+
 </html>
